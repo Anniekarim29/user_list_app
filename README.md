@@ -1,16 +1,14 @@
-# api_integration_app
+# User List App (Flutter)
 
-A new Flutter project.
+A clean and responsive Flutter app that fetches a list of users from a public API and displays them with real profile avatars using cards.
 
-## Getting Started
+##  Features
+- REST API integration using JSONPlaceholder
+- JSON parsing into model class
+- Stylish ListView UI
+- Real round profile images using Pravatar
+- Robust error handling and loading spinner
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##  Packages Used
+```yaml
+http: ^0.13.6
